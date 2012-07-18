@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketTest", "ShoppingBasketTest\ShoppingBasketTest.csproj", "{A55B4473-D894-4B60-BF31-955C4B0FDD38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{12C78C1D-1341-4B4D-B2C7-77005E779DE9}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		ShoppingBasketKata.vsmdi = ShoppingBasketKata.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket", "ShoppingBasket\ShoppingBasket.csproj", "{A3845B01-0A1C-4237-9B31-33B348229C0C}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ShoppingBasketKata.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A55B4473-D894-4B60-BF31-955C4B0FDD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A55B4473-D894-4B60-BF31-955C4B0FDD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A55B4473-D894-4B60-BF31-955C4B0FDD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A55B4473-D894-4B60-BF31-955C4B0FDD38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3845B01-0A1C-4237-9B31-33B348229C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3845B01-0A1C-4237-9B31-33B348229C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3845B01-0A1C-4237-9B31-33B348229C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3845B01-0A1C-4237-9B31-33B348229C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
